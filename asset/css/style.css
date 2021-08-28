@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "poppinsbold";
+  src: url("../fonts/poppins/webpopins/poppins-bold-webfont.woff2")
+      format("woff2"),
+    url("../fonts/poppins/webpopins/poppins-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/poppins/webpopins/poppins-regular-webfont.woff2")
+    format("woff2")
+    url("../fonts/poppins/webpopins/poppins-regular-webfont.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "robotobold";
+  src: url("../fonts/roboto/webroboto/roboto-bold-webfont.woff2")
+      format("woff2"),
+    url("../fonts/roboto/webroboto/roboto-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "robotoregular";
+  src: url("../fonts/roboto/webroboto/roboto-bold-webfont.woff2")
+      format("woff2"),
+    url("../fonts/roboto/webroboto/roboto-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "robotoregular", serif;
+}
